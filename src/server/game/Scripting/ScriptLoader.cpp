@@ -17,6 +17,9 @@
 
 #include "ScriptLoader.h"
 
+// Custom
+void AddSC_boss_gunship_battle();
+
 //examples
 void AddSC_example_creature();
 void AddSC_example_escort();
@@ -1264,6 +1267,7 @@ void AddCustomScripts()
     //Hunter Pet Vendor
     AddSC_npc_hunterpetvendor();	
     // Custom
+    AddSC_boss_gunship_battle();
     AddSC_DuelReset();
     AddSC_npc_mount();		
     AddSC_ArgentTournament();
